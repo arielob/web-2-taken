@@ -13,7 +13,7 @@ let klasseNaam = 'derderij';
 let derderij = document.getElementsByClassName(klasseNaam);
 console.log(derderij);
 
-const collection = document.getElementsByClassName("derderij");
-for (let i = 0; i < collection.length; i++) {
-  collection[i].style.backgroundColor = "red";
+for (let element of derderij) {
+    console.log(element);
+    element.style.backgroundColor = 'purple';
 }
