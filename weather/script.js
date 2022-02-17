@@ -9,12 +9,29 @@ const select = document.querySelector('select');
 
   select.onchange = function () {
     const choice = select.value;
-
+    console.log('gekozen optie', choice);
+    
     // ADD SWITCH STATEMENT
     // HIERBOVEN NIETS VERANDEREN
     // je code met switch case komt vanaf hier:
-    
+    switch(choice) {
+      case "sunny":
+          updateBgTextColor("blue");
+          break;
+           case "rainy":
+             updateBgTextColor("red");
+             break;
+             case "snowing":
+              updateBgTextColor("yellow");
+              break;
+              case "overcast":
+              updateBgTextColor("green");
+              break;
 
+ 
+
+          
+    }
     // tot hier
     // HIERONDER NIETS VERANDEREN
   }
