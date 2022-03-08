@@ -11,5 +11,5 @@ for (let i = 0; i < 5; i++) {
 console.log(lijstrappers.length)
 
 for (let i = 0; i < lijstrappers.length; i++) {
-    console.log(i);
+    console.log(lijstrappers[i]);
 }
