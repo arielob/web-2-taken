@@ -1,7 +1,7 @@
 /** pas de kleuren aan naar eigen smaak, zorg gwn voor contrast & eenduidig thema **/
 body {
-  background-color: bisque;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darksalmon;
+  font-size: larger;
 }
 
 h1 {
@@ -10,13 +10,19 @@ h1 {
 
 p {
   text-align: center;
+  font-size: larger;
+  color: rgb(226, 234, 241);
+  font-weight: bold;
 }
 
 /** onderstaande styling mag gerust verwijderd worden **/
 
-.menu a:visited {
-  color: rgb(116, 29, 29);
+
+
+.menu a {
+  color: white;
   background-color: inherit;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 ul.menu {
@@ -34,4 +40,46 @@ hr {
 
 .centreer {
   display: flex;
+}
+
+body {
+  background-image: url("AROWBEY.jfif");
+}
+
+a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: orange;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+.aze{
+  width: 7%;
+  height: 20%;
+}
+
+.lol{
+  position: relative;
+  top: -45px;
+  left: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: beige;
+
+}
+.azee{
+  width: 6%;
+  height: 20%;
+  border-radius: 50px;
+}
+.Lyrics{
+  position: relative;
+  top: -35px;
+  left: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: beige;
 }
